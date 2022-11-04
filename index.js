@@ -177,5 +177,3 @@ let newWord = word.concat("", werd);
  * endsWith()
  *
  */
-
-console.log(`<h1>hello</h1>`);
