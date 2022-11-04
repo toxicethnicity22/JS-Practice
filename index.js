@@ -131,3 +131,51 @@ let gorrila = {
     return `Hello, me best child ${this.children[0].name}, ${this.children[0].name} be ${this.children[0].age}  `;
   },
 };
+
+//Methods
+//STring methods
+
+let word = "supercalifragilistic";
+let werd = "expialidocious";
+let newWord = word.concat("", werd);
+
+//length
+/**
+ * slice -> word.slice(5, 9) === cali
+ * substring
+ *
+ * replace -> word.replace("s", "g") === guperdupercalifragilisticexpialidocious
+ *  replaceAll -> word.replace('s', 'g') === gupercalifragiligticexpialidocioug
+ *
+ * toUpperCase
+ * toLowerCase
+ *
+ * concat
+ * trim removes end/beginning spaces
+ * trimStart
+ * trimEnd
+ *
+ * padStart()
+ * padEnd()
+ * word.charAt(10)
+ *
+ * indexOf()
+ *
+ * lastIndexOf()
+ *
+ * search()
+ *
+ *
+ * match()
+ *
+ * matchAll()
+ *
+ * includes()
+ *
+ * startsWith()
+ *
+ * endsWith()
+ *
+ */
+
+console.log(`<h1>hello</h1>`);
